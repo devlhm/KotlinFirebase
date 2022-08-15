@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/registerEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10sp"
+        android:background="#AAADBF"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#253040"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/registerSenha"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10sp"
+        android:background="#AAADBF"
+        android:hint="@string/senha"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#253040"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="302dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#3F51B5"
+        android:text="@string/registerBtn"
+        android:textSize="25sp" />
+
+</LinearLayout>
